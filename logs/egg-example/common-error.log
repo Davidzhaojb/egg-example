@@ -1,0 +1,15 @@
+2019-07-07 18:09:37,580 ERROR 36548 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/fullwin/Desktop/nodejs/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36548
+hostname: DaviddeiMac.local
+

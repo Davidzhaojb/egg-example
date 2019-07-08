@@ -1,0 +1,11 @@
+2019-07-07 18:09:25,846 INFO 36547 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Desktop/nodejs/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-07-07 18:09:25,854 INFO 36547 [egg:core] dump config after load, 4ms
+2019-07-07 18:09:25,929 INFO 36547 [egg-watcher] Start watching: ["/Users/fullwin/Desktop/nodejs/egg-example/app","/Users/fullwin/Desktop/nodejs/egg-example/config","/Users/fullwin/Desktop/nodejs/egg-example/mocks","/Users/fullwin/Desktop/nodejs/egg-example/mocks_proxy","/Users/fullwin/Desktop/nodejs/egg-example/app.js"]
+2019-07-07 18:09:25,929 INFO 36547 [egg-watcher] Start watching: "/Users/fullwin/Desktop/nodejs/egg-example/app"
+2019-07-07 18:09:25,930 INFO 36547 [egg-watcher] Start watching: "/Users/fullwin/Desktop/nodejs/egg-example/config"
+2019-07-07 18:09:25,930 INFO 36547 [egg-watcher] Start watching: "/Users/fullwin/Desktop/nodejs/egg-example/mocks"
+2019-07-07 18:09:25,930 INFO 36547 [egg-watcher] Start watching: "/Users/fullwin/Desktop/nodejs/egg-example/mocks_proxy"
+2019-07-07 18:09:25,930 INFO 36547 [egg-watcher] Start watching: "/Users/fullwin/Desktop/nodejs/egg-example/app.js"
+2019-07-07 18:09:25,930 INFO 36547 [egg-watcher:agent] watcher start success
+2019-07-07 18:09:25,942 INFO 36547 [egg:core] dump config after ready, 2ms
+2019-07-07 18:09:26,828 INFO 36547 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Desktop/nodejs/egg-example/app/public","stat":{"dev":16777224,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":53287137,"size":68,"blocks":0,"atimeMs":1562494166000,"mtimeMs":1562494166000,"ctimeMs":1562494166000,"birthtimeMs":1562494166000,"atime":"2019-07-07T10:09:26.000Z","mtime":"2019-07-07T10:09:26.000Z","ctime":"2019-07-07T10:09:26.000Z","birthtime":"2019-07-07T10:09:26.000Z"},"remove":false,"isDirectory":true,"isFile":false}

@@ -1,0 +1,6 @@
+2019-07-07 18:09:26,601 INFO 36548 [egg-schedule]: register schedule /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-07 18:09:26,601 INFO 36548 [egg-schedule]: register schedule /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-07 18:09:26,601 INFO 36548 [egg-schedule]: register schedule /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-07 18:09:26,876 INFO 36547 [Timer] /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37233127ms at 2019-07-08 04:30:00.003
+2019-07-07 18:09:26,876 INFO 36547 [Timer] /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21033124ms at 2019-07-08 00:00:00.000
+2019-07-07 18:09:26,876 INFO 36547 [Timer] /Users/fullwin/Desktop/nodejs/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21034124ms at 2019-07-08 00:00:01.000
